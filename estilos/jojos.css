@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "jonathan joseph jotaro"
+    "jonathan josuke giorno";
+    gap: 10px;
+}
+.jonathan{
+    grid-area: jonathan;
+    background-color: rebeccapurple;
+}
+.joseph{
+    grid-area: joseph;
+    background-color: orange;
+}
+.jotaro{
+    grid-area: jotaro;
+    background-color: rgb(66, 66, 66);
+}
+.josuke{
+    grid-area: josuke;
+    background-color: darkblue;
+}
+.giorno{
+    grid-area: giorno;
+    background-color: yellow;
+}
+.container >div{
+    display: grid;
+    place-items: center;
+}

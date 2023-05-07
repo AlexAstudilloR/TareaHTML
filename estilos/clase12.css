@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+.logo{
+    width:50px;
+    padding: 10px;
+}
+header{
+    display:flex;
+    background-color: #272726;
+    gap: 10px;
+    
+}
+.navbarmenu{
+    list-style-type: none;
+    display:flex;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.navbar{
+    align-items: center;
+    display: flex;
+}
+.navbaritem a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 900;
+}
+.navbaritem a:hover{
+    color: #86d4c1 !important;
+    border: #86d4c1;
+    text-decoration: underline;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition: all 1s;
+}
+.principal{
+    height: 70vh;
+    background-image: url('../imagenes/jojo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+.principal h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding-inline: 10px;
+    font-weight: 900;
+    
+}
+.principal p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding-inline: 10px;
+    text-align: center;
+}
+.tarjetas{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+}
+.tarjeta{
+    background-color: rgba(206, 10, 49, 0.438);
+    border-radius: 20px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 33%;
+    text-align: center;
+}
+.tarjeta p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*PSEUDOCLASES*/
+.tarjeta:first-child{
+    background-color: #257025;
+    color:white;
+}
+.tarjeta:nth-child(2){
+    background-color: #bb0c9e;
+    color:white;
+}
+.tarjeta:last-child{
+    background-color: #385e3f;
+    color:white;
+}
+.imagen_tarjeta{
+    max-width: 100%;
+}
+.info{
+    padding: 0 20px 20px 20px;
+}
+footer {
+    background-color: #352e2a; /* color de fondo del footer */
+    color: #fff; /* color del texto */
+    text-align: center; /* alinear el texto al centro */
+    padding: 10px; /* espacio alrededor del contenido */
+    position: fixed; /* fijar el footer en la parte inferior de la página */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* ancho completo del footer */
+  }
+footer p:hover{
+    color:gold;
+}

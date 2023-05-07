@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+.logo{
+    width:50px;
+}
+header{
+    display:flex;
+    background-color: #e9c44a;
+    gap: 10px;
+    
+}
+.navbarmenu{
+    list-style-type: none;
+    display:flex;
+    gap: 10px;
+    
+}
+.navbar{
+    align-items: center;
+    display: flex;
+}
+.navbaritem a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+.navbaritem.active a{
+    text-decoration: underline; 
+    
+}
+.principal{
+    height: 60vh;
+    background-image: url('../imagenes/photo-1500964757637-c85e8a162699.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+.principal h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding-inline: 10px;
+    font-weight: 900;
+    
+}
+.principal p{
+    color: white;
+    padding-inline: 10px;
+    text-align: center;
+}
+.tarjetas{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+}
+.tarjeta{
+    background-color: rgba(206, 10, 49, 0.438);
+    border-radius: 20px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.imagen_tarjeta{
+    max-width: 100%;
+}
+.info{
+    padding: 0 20px 20px 20px;
+}

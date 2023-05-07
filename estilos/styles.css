@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu > ul li{
+    margin-right: 10px;
+    list-style-type: none;
+    display: inline;
+    font-size: 24px;
+}
+.menu li a{
+     color: rgb(142, 115, 168);
+     font-family: 'Nunito', sans-serif;
+     font-weight:700
+     
+}
+.ingredientes{
+    list-style-position: inside;
+}
+.caja{
+    width: 400px;
+    height: 400px;
+    background-color: #54ac87;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-image: url("./../imagenes/photo-1500964757637-c85e8a162699.jfif");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    border-radius: 30px;
+}
+.caja p{
+    text-align: center;
+    line-height: 20px;
+}
