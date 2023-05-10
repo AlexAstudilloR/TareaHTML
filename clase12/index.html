@@ -9,23 +9,29 @@
     <meta name="keywords" content="Jojos,Jolyne,Joseph,Anime">
     <link rel="stylesheet" href="../estilos/clase12.css">
     <link rel="shortcut icon" href="../imagenes/jbalogo.webp" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/36085e0238.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <script src="script.js"></script>
     <header>
         <img src="../imagenes/jbalogo.webp" alt="Jojos Bizarre Adventure" class="logo">
         <nav class="navbar">
             <ul class="navbarmenu">
-                <li class="navbaritem active"><a href="./index.html">Home</a></li>
-                <li class="navbaritem"><a href="#">Quíenes Somos</a></li>
-                <li class="navbaritem"><a href="#">Contactos</a></li>
+                <li class="navbaritem active"><a class="active" href="./index.html">Home</a></li>
+                <li class="navbaritem"><a href="#">Pagina en Linea</a></li>
+                <li class="navbaritem dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clases <span class="caret"><i class="fa-solid fa-angle-down"></i></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Clase 2</a></li>
+                      <li><a href="#">Clase 3</a></li>
+                      <li><a href="#">Clase 4</a></li>
+                      <li><a href="#">Clase 5</a></li>
+                      <li><a href="#">Clase 6</a></li>
+                      <li><a href="#">Clase 8</a></li>
+                    </ul>
+                  </li>
             </ul>
-            <div>
-                <button class="switch" id="switch">
-                    <span><i class="fa-regular fa-sun-bright"></i></span>
-                    <span><i class="fa-thin fa-moon"></i></span>
-                    </button>
-            </div>
         </nav>
     </header>
     <main>

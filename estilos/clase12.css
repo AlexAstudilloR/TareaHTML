@@ -38,6 +38,9 @@ header{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     transition: all 1s;
 }
+.navbaritem a:active{
+    text-decoration: underline;
+}
 .principal{
     height: 70vh;
     background-image: url('../imagenes/jojo.jpeg');
@@ -114,3 +117,28 @@ footer {
 footer p:hover{
     color:gold;
 }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+    background-color:#272726 ;
+    padding: 10px;
+
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
