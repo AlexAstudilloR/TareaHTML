@@ -130,6 +130,16 @@ footer p:hover{
     background-color:#4890b1 ;
     padding: 10px;
 
+    /* MODO OSCURO*/
+.container{
+      position: relative;
+      background-color:#4890b1 ;
+      width: 40px;
+      height: 20px;
+      box-shadow: inset 4px 4px 6px #cececc,
+                  inset -4px -4px 6px #ffffff ;
+      margin-top: 10px;
+    }
   }
   @keyframes fadeIn {
     from {
