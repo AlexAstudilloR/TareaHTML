@@ -11,7 +11,7 @@
 }
 header{
     display:flex;
-    background-color: #272726;
+    background-color: #4890b1;
     gap: 10px;
     
 }
@@ -37,9 +37,6 @@ header{
     text-decoration: underline;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     transition: all 1s;
-}
-.navbaritem a:active{
-    text-decoration: underline;
 }
 .principal{
     height: 70vh;
@@ -105,7 +102,7 @@ header{
     padding: 0 20px 20px 20px;
 }
 footer {
-    background-color: #352e2a; /* color de fondo del footer */
+    background-color: #4890b1; /* color de fondo del footer */
     color: #fff; /* color del texto */
     text-align: center; /* alinear el texto al centro */
     padding: 10px; /* espacio alrededor del contenido */
@@ -130,7 +127,7 @@ footer p:hover{
   
   .dropdown-menu li {
     display: block;
-    background-color:#272726 ;
+    background-color:#4890b1 ;
     padding: 10px;
 
   }
