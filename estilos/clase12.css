@@ -131,15 +131,47 @@ footer p:hover{
     padding: 10px;
 
     /* MODO OSCURO*/
-.container{
-      position: relative;
-      background-color:#4890b1 ;
-      width: 40px;
-      height: 20px;
-      box-shadow: inset 4px 4px 6px #cececc,
-                  inset -4px -4px 6px #ffffff ;
-      margin-top: 10px;
-    }
+  }
+  #container{
+    position: relative;
+    background-color:#4890b1 ;
+    width: 40px;
+    height: 20px;
+    box-shadow: inset 1px 1px 2px #b9daf8,
+                inset -1px -1px 2px #ffffff ;
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  .toogle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 15px;
+    height: 15px;
+    transform: scale(.7);
+    background-color:#ffffff;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px #c4c4c4,
+                -1px -1px 2px #ffffff;
+                
+  }
+  #container.active .toogle{
+    left: 20px;
+  }
+  #container.active{
+    background-color:#272726 ;
+  }
+  body.active{
+        background-color: #1a1a1a;
+  }
+  header.active{
+        background-color: #272726;
+  }
+
+  footer.active{
+        background-color:#272726 ;
   }
   @keyframes fadeIn {
     from {
